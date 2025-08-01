@@ -1,0 +1,99 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>FPS League Hub</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="navbar">
+    <div class="logo">FPS League</div>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#roster">Teams</a>
+      <a href="#schedule">Schedule</a>
+      <a href="#rules">Rules</a>
+      <a href="#contact">Join</a>
+    </nav>
+    <div class="hamburger" id="hamburger">
+      <span></span><span></span><span></span>
+    </div>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="overlay">
+      <h1>Welcome to the Arena</h1>
+      <p>Compete, dominate, and rise through the ranks in our FPS league.</p>
+      <a href="#roster" class="btn">View Teams</a>
+    </div>
+  </section>
+
+  <section class="features" id="roster">
+    <h2>Featured Teams</h2>
+    <div class="cards">
+      <div class="card">
+        <div class="icon">🔥</div>
+        <h3>Red Squad</h3>
+        <p>Specializing in rapid flanking and close-quarters combat.</p>
+      </div>
+      <div class="card">
+        <div class="icon">❄️</div>
+        <h3>Blue Delta</h3>
+        <p>Expert snipers and long-distance sharpshooters.</p>
+      </div>
+      <div class="card">
+        <div class="icon">⚡</div>
+        <h3>Swift Ops</h3>
+        <p>Aggressive rush tactics with top-tier coordination.</p>
+      </div>
+      <div class="card">
+        <div class="icon">💥</div>
+        <h3>Blast Unit</h3>
+        <p>Heavy weapons and demolitions masters.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="about" id="schedule">
+    <h2>Season Schedule</h2>
+    <p>Matches run every Saturday at 8 PM. Check back weekly for opponents and brackets.</p>
+  </section>
+
+  <section class="pricing" id="rules">
+    <h2>League Rules</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Team Size</h3>
+        <p>5 vs 5 standard matches.</p>
+      </div>
+      <div class="card">
+        <h3>Map Pool</h3>
+        <p>Rotation of 6 competitive maps.</p>
+      </div>
+      <div class="card">
+        <h3>Match Format</h3>
+        <p>Best-of-3 rounds, single elimination.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2>Join the League</h2>
+    <form>
+      <input type="text" placeholder="Team Name" required />
+      <input type="email" placeholder="Contact Email" required />
+      <textarea rows="4" placeholder="Tell us about your squad" required></textarea>
+      <button type="submit" class="btn">Submit Application</button>
+    </form>
+    <p class="small">Questions? Email us at <a href="mailto:league@fpshub.com">league@fpshub.com</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 FPS League Hub. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
