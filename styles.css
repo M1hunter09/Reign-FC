@@ -78,7 +78,7 @@ section { padding: 4rem 2rem; }
 .contact button { align-self: center; }
 
 /* Footer */
-footer {
+.footer {
   text-align: center; padding: 1rem; background: var(--card-bg);
   font-size: 0.9rem; opacity: 0.8;
 }
