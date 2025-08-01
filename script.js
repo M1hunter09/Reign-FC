@@ -40,8 +40,8 @@ document.getElementById('contactForm').addEventListener('submit', function (e) {
     color: 0x1e90ff,
     fields: [
       { name: 'Team Name', value: name, inline: false },
-      { name: 'Email', value: email, inline: false },
-      { name: 'Message', value: message, inline: false }
+      { name: 'Contact Email', value: email, inline: false },
+      { name: 'Descritpion', value: message, inline: false }
     ],
     timestamp: new Date()
   }]
