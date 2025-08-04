@@ -118,8 +118,7 @@ section { padding: 4rem 2rem; }
 
   body {
     background: url('Images/Mbg.img');
-    background-size: contain;
-    background-repeat: repeat-y;
+    background-size: cover;
     background-position: center top;
     background-color: #070303;
   }
