@@ -10,7 +10,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; transition: var(--transition); }
 
 body {
-  background: url('Images/bg.img') no-repeat center center fixed;
+  background: url('Images/bg.jpg') no-repeat center top fixed;
   background-size: cover;
   color: var(--fg);
   font-family: 'Segoe UI', Tahoma, sans-serif;
@@ -103,6 +103,9 @@ section { padding: 4rem 2rem; }
 
 /* Responsive */
 @media (max-width: 768px) {
+    background-size: contain;
+    background-position: top center;
+    background-repeat: no-repeat;
   .nav-links { display: none; }
   .hamburger { display: flex; }
   .cards { flex-direction: column; align-items: center; }
