@@ -10,7 +10,7 @@
 * { box-sizing: border-box; margin: 0; padding: 0; transition: var(--transition); }
 
 body {
-  background: url('Images/bg.jpg') no-repeat center fixed;
+  background: url('Images/bg.img') no-repeat center center fixed;
   background-size: cover;
   color: var(--fg);
   font-family: 'Segoe UI', Tahoma, sans-serif;
