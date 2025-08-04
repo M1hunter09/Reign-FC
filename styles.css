@@ -10,7 +10,8 @@
 * { box-sizing: border-box; margin: 0; padding: 0; transition: var(--transition); }
 
 body {
-  background: var(--bg);
+  background: url('Images/bg.img') no-repeat center center fixed;
+  background-size: cover;
   color: var(--fg);
   font-family: 'Segoe UI', Tahoma, sans-serif;
   line-height: 1.5;
