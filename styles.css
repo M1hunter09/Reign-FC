@@ -97,24 +97,23 @@ section { padding: 4rem 2rem; }
 
 /* Footer */
 .footer {
-  background: var(--card-bg);
-  padding: 1rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 0.5rem 1rem;
   font-size: 0.9rem;
-  opacity: 0.8;
-}
-
-.footer-content {
+  color: #aaa;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1000px;
-  margin: 0 auto;
-  padding: 0 1rem;
-  color: #aaa;
+  background: transparent;
+  z-index: 1000;
+  pointer-events: none;
 }
 
-.footer .username {
-  text-align: right;
+.footer span {
+  pointer-events: auto;
 }
 
 /* Responsive */
