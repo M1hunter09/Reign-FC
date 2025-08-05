@@ -97,8 +97,20 @@ section { padding: 4rem 2rem; }
 
 /* Footer */
 .footer {
-  text-align: center; padding: 1rem; background: var(--card-bg);
-  font-size: 0.9rem; opacity: 0.8;
+  background: var(--card-bg);
+  padding: 1rem;
+  font-size: 0.9rem;
+  opacity: 0.8;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 1rem;
+  color: #aaa;
 }
 
 .footer .username {
