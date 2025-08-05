@@ -97,23 +97,8 @@ section { padding: 4rem 2rem; }
 
 /* Footer */
 .footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  padding: 0.5rem 1rem;
-  font-size: 0.9rem;
-  color: #aaa;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: transparent;
-  z-index: 1000;
-  pointer-events: none;
-}
-
-.footer span {
-  pointer-events: auto;
+  text-align: center; padding: 1rem; background: var(--card-bg);
+  font-size: 0.9rem; opacity: 0.8;
 }
 
 /* Responsive */
