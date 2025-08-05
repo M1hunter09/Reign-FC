@@ -101,6 +101,10 @@ section { padding: 4rem 2rem; }
   font-size: 0.9rem; opacity: 0.8;
 }
 
+.footer .username {
+  text-align: right;
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .nav-links {
